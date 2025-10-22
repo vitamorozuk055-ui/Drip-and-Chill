@@ -1,0 +1,130 @@
+.drinks-background-img {
+    background-image: url(https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?cs=srgb&dl=pexels-igor-haritanovich-814387-1695052.jpg&fm=jpg);
+    background-size: 1200px;
+    background-position: center;
+    border-radius: 30px;
+}
+.drink-section {
+    box-shadow: 15px 15px 20px 5px rgba(127, 111, 111, 0.562);
+
+}
+.section-title-drinks {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 242, 9);
+    color: white;
+}
+.populardrink-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 0;
+    text-align: center;
+}
+.populardrink-item {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: peru;
+}
+
+.populardrink-item:hover {
+    box-shadow: inset 0 0 10px 5px rgb(110, 71, 33);
+}
+
+.img-wrapper-11 {
+
+    background-image: url('../../img/Americano-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+
+.img-wrapper-12 {
+    background-image: url('../../img/Lattesquoosh.jpg');
+    background-position: center;
+    background-size: 350px;
+}
+
+.img-wrapper-13 {
+    background-image: url('../../img/Macchiato-squosh.jpg');
+}
+.img-wrapper-14 {
+    background-image: url('../../img/fruit-smoothie-squosh.jpg');
+    background-position: center;
+    background-size: 350px;
+}
+
+
+@media  (max-width:430px) {
+    .drinks-background-img {
+    background-image: url(https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?cs=srgb&dl=pexels-igor-haritanovich-814387-1695052.jpg&fm=jpg);
+    background-size: 1200px;
+    background-position: center;
+    border-radius: 30px;
+}
+.drink-section {
+    box-shadow: 15px 15px 20px 5px rgba(127, 111, 111, 0.562);
+
+}
+.section-title-drinks {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 242, 9);
+    color: white;
+}
+.populardrink-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 0;
+    text-align: center;
+    margin-left: -80px;
+}
+.populardrink-item {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: peru;
+}
+
+.populardrink-item:hover {
+    box-shadow: inset 0 0 10px 5px rgb(110, 71, 33);
+}
+
+.img-wrapper-11 {
+
+    background-image: url('../../img/Americano-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+
+.img-wrapper-12 {
+    background-image: url('../../img/Lattesquoosh.jpg');
+    background-position: center;
+    background-size: 350px;
+}
+
+.img-wrapper-13 {
+    background-image: url('../../img/Macchiato-squosh.jpg');
+}
+.img-wrapper-14 {
+    background-image: url('../../img/fruit-smoothie-squosh.jpg');
+    background-position: center;
+    background-size: 350px;
+}
+
+}

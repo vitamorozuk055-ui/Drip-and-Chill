@@ -1,0 +1,108 @@
+.parent-feedback {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.body-feedback {
+    box-sizing: content-box;
+    background-color: rgba(208, 203, 159, 0.689);
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    /* padding-left: 100px; */
+    margin-left: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.feedback-name {
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.paragraph-feedback {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feedback-form {
+    margin-bottom: 20px;
+
+}
+.form-feedback {
+    border: 1px solid green;
+    width: 300px;
+    margin: 0 auto;
+}
+.username-feedback {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: wheat;
+
+}
+.btn-feedback-wrapper {
+    margin: 0 auto;
+    width: 50px;
+    border: 1px solid red;
+}
+
+
+@media (max-width:430px) {
+    .parent-feedback {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.body-feedback {
+    box-sizing: content-box;
+    background-color: rgba(208, 203, 159, 0.689);
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    padding-left: 6px; 
+    margin-left: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.feedback-name {
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.paragraph-feedback {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feedback-form {
+    margin-bottom: 20px;
+
+}
+.form-feedback {
+    border: 1px solid green;
+    width: 300px;
+    margin: 0 auto;
+}
+.username-feedback {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: wheat;
+
+}
+.btn-feedback-wrapper {
+    margin: 0 auto;
+    width: 50px;
+    border: 1px solid red;
+}
+
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .body-feedback {
+    box-sizing: content-box;
+    background-color: rgba(208, 203, 159, 0.689);
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    /* padding-left: 100px; */
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+}
+

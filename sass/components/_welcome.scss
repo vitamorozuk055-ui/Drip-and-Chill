@@ -1,0 +1,129 @@
+.welcome {
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.41);
+}
+
+.main-title {
+    text-align: center;
+    font-family: "Savate", sans-serif;
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 9, 9);
+}
+
+.tracking-in-expand-fwd {
+    animation: tracking-in-expand-fwd 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+.main-photo {
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 10px #0000005c;
+}
+
+.scale-in-center {
+    animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.restoraunt-description {
+    font-family: "Roboto Mono", monospace;
+    background-color: rgb(149, 120, 65);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.253);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.restoraunt-description::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+.restoraunt-description::selection {
+    color: white;
+    background-color: black;
+}
+
+.video {
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.338);
+}
+
+
+.gallery {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: #fff;
+    text-align: center;
+}
+
+
+@media (min-width:768px) and (max-width: 1024px)  {
+    
+    .video {
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.338);
+    width: 760px;
+}
+    
+ 
+}
+
+
+
+
+// .container-gallery {
+//     min-height: 100vh;
+//     position: relative;
+//     margin: 0 auto;
+//     width: 1200px;
+//     border: 1px solid red;
+
+// }
+
+// .box-gallery {
+//     position: absolute;
+//     height: 500px;
+//     width: 500px;
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 4px;
+//     font-size: 64px;
+//     color: #fff;
+
+//     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+//         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+//     margin-left: 0px;
+// }

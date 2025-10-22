@@ -1,0 +1,100 @@
+.main-background-drinks {
+    background-image: url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border-radius: 30px;
+}
+
+.drink-list {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0px;
+}
+.populardrink-item {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: peru;
+}
+
+.populardrink-item:hover {
+    box-shadow: inset 0 0 10px 5px rgb(110, 71, 33);
+}
+
+.img-wrapper-41 {
+    background-image: url('../../img/Americano-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+.img-wrapper-42 {
+    background-image: url('../../img/Latte-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+.img-wrapper-43 {
+    background-image: url('../../img/Macchiato-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+
+@media (max-width:430px) {
+    .main-background-drinks {
+    background-image: url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border-radius: 30px;
+}
+
+.drink-list {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0px;
+    flex-direction: column;
+
+}
+.populardrink-item {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: peru;
+    width: 220px;
+    margin-left: 90px;
+}
+
+.populardrink-item:hover {
+    box-shadow: inset 0 0 10px 5px rgb(110, 71, 33);
+}
+
+.img-wrapper-41 {
+    background-image: url('../../img/Americano-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+.img-wrapper-42 {
+    background-image: url('../../img/Latte-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+.img-wrapper-43 {
+    background-image: url('../../img/Macchiato-squosh.jpg');
+    background-position: center;
+    background-size: 300px;
+}
+ 
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .drink-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0px;
+}
+}

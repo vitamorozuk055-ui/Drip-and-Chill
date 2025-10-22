@@ -1,0 +1,285 @@
+.desserts-background-img {
+    background-image: url(https://st3.depositphotos.com/13349494/18525/i/450/depositphotos_185259706-stock-photo-flat-lay-cup-coffee-sweet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    background-size: 1200px;
+    padding-bottom: 20px;
+
+
+}
+
+.menu-btn {
+    background-color: rgb(202, 99, 51);
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    align-content: center;
+}
+
+.slide-in-fwd-top {
+    animation: slide-in-fwd-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.deserts-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-wrapper-32 {
+    width: 205px;
+    height: 205px;
+    background-image: url('../../img/Maffinmainpage.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.btn-product {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: wheat;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: wheat;
+
+}
+
+.title-btn {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.img-wrapper-33 {
+    background-image: url('../../img/Applepie-squosh.jpg');
+    background-position: center;
+    background-size: 280px;
+}
+
+.img-wrapper-34 {
+
+
+    background-image: url('../../img/Cheesecakesquoosh.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img-wrapper-35 {
+
+    background-image: url('../../img/Brownie-squosh.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (max-width:430px) {
+    .desserts-background-img {
+        background-image: url(https://st3.depositphotos.com/13349494/18525/i/450/depositphotos_185259706-stock-photo-flat-lay-cup-coffee-sweet.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        border-radius: 25px;
+        background-size: 1200px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .menu-btn {
+        background-color: rgb(202, 99, 51);
+        color: beige;
+        text-decoration: none;
+        padding: 5px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+        align-content: center;
+        font-size: 10px;
+    }
+
+    .slide-in-fwd-top {
+        animation: slide-in-fwd-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    .deserts-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .img-wrapper-32 {
+        width: 205px;
+        height: 205px;
+        background-image: url('../../img/Maffinmainpage.jpg');
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .btn-product {
+        padding: 7px 10px;
+        border: none;
+        border-radius: 30px;
+        background-color: wheat;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: wheat;
+
+    }
+
+    .title-btn {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .img-wrapper-33 {
+        background-image: url('../../img/Applepie-squosh.jpg');
+        background-position: center;
+        background-size: 280px;
+    }
+
+    .img-wrapper-34 {
+
+
+        background-image: url('../../img/Cheesecakesquoosh.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-wrapper-35 {
+
+        background-image: url('../../img/Brownie-squosh.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .populardesert-item {
+        border: 1px solid blue;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(202, 99, 51);
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        margin-left: -32px;
+
+    }
+
+    .populardesert-item:hover {
+        box-shadow: inset 0px 0px 10px 5px rgb(154, 76, 39);
+
+    }
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .desserts-background-img {
+    background-image: url(https://st3.depositphotos.com/13349494/18525/i/450/depositphotos_185259706-stock-photo-flat-lay-cup-coffee-sweet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    background-size: 1200px;
+    padding-bottom: 20px;
+
+
+}
+
+.menu-btn {
+    background-color: rgb(202, 99, 51);
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    align-content: center;
+}
+
+.slide-in-fwd-top {
+    animation: slide-in-fwd-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.deserts-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-wrapper-32 {
+    width: 205px;
+    height: 205px;
+    background-image: url('../../img/Maffinmainpage.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.btn-product {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: wheat;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: wheat;
+
+}
+
+.title-btn {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.img-wrapper-33 {
+    background-image: url('../../img/Applepie-squosh.jpg');
+    background-position: center;
+    background-size: 280px;
+}
+
+.img-wrapper-34 {
+
+
+    background-image: url('../../img/Cheesecakesquoosh.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img-wrapper-35 {
+
+    background-image: url('../../img/Brownie-squosh.jpg');
+    background-position: center;
+    background-size: cover;
+}
+}

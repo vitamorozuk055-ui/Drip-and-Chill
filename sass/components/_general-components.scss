@@ -1,0 +1,159 @@
+.main-background {
+    background-color: rgb(250, 213, 164);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 10px 5px rgb(231, 156, 85), 0px 14px 9px 7px rgb(218, 126, 21)
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.img-wrapper {
+    width: 200px;
+    height: 200px;
+
+    background-position: center;
+    background-size: 270px;
+    background-repeat: no-repeat;
+
+  
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 242, 9);
+    margin-bottom: 30px;
+
+}
+.footer-text {
+    text-align: center;
+    font-family: "Savate", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.footer {
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.btn-product:hover {
+    background-color: rgb(200, 178, 138);
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.pane {
+    display: none;
+    margin-top: 8px;
+}
+
+.pane.is-active {
+    display: block;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+.pane {
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+.list-link {
+    position: relative;
+}
+
+.link-list::before,
+.link-list::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    position: relative;
+
+}
+.link-list::after {
+    position: relative;
+
+    display: none;
+    margin-left: 16px;
+
+}
+.link-list:hover::after {
+    display: block;
+
+    position: absolute;
+    top: 35px;
+    left: 27px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.btn-rotation {
+    border-radius: 10px;
+    background-color: rgb(163, 139, 107);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+    border: none;
+}
+
+.btn-rotation:hover {
+    background-color: rgb(97, 84, 32);
+    transform: scale(1.1);
+    background-color: rgb(167, 151, 122);
+    border: none;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --header-color: aliceblue;
+
+}
+
+
+
+@media (min-width:768px) and  (max-width: 1024px) {
+    .container {
+
+    width:760px;
+    margin: 0 auto;
+}
+}

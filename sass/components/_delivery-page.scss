@@ -1,0 +1,693 @@
+.text-hover {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.tracking-in-expand-fwd-bottom {
+    animation: tracking-in-expand-fwd-bottom 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd-bottom {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px) translateY(500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+.parent-tag {
+    display: flex;
+}
+
+.delivery-chickfille {
+    background-image: url(https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/Delivery/ONE_0704-4%201.png?la=en&h=-1&w=-1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #414244;
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(160px);
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.overlay code {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+.paragraph {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.delivery-pizza {
+    background-image: url(https://plus.unsplash.com/premium_photo-1682088887477-4f63f185ba7e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fHww);
+}
+
+.delivery-img {
+    background-image: url(https://media.istockphoto.com/id/1411691105/video/close-up-young-happy-asian-delivery-man-with-bicycle-in-red-uniform-carry-case-box-knock-door.jpg?s=640x640&k=20&c=cxmEv7EtPvYjJgmPCwc_2LeanNkJHKsmGyTL0PeWips=);
+}
+
+.delivery-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.img-delivery {
+    border-radius: 30px;
+}
+
+.delivery-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+
+    gap: 50px;
+}
+
+.delivery-item {
+    width: 200px;
+
+}
+
+.box-rotation {
+
+    border-radius: 10px;
+    background-color: rgb(163, 139, 107);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+
+.box-rotation:hover {
+    background-color: rgb(97, 84, 32);
+    transform: scale(1.2);
+}
+
+.delivery-paragraph {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.delivery-paragraph::selection {
+    color: azure;
+    background-color: black;
+}
+
+.form-delivery {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: #e3dab9;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-button {
+    background-color: wheat;
+    border-radius: 5px;
+
+}
+
+.form-button:hover {
+    background-color: rgb(178, 157, 118);
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    display: flex;
+    background-position: center;
+    box-shadow: 7px 7px 7px 7px #0000007d;
+    border-radius: 7px;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    display: flex;
+    background-position: center;
+    border-radius: 7px;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border-radius: 7px;
+}
+
+.section-title-delivery {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 242, 9);
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:430px) {
+
+    .text-hover {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+
+    }
+
+    .tracking-in-expand-fwd-bottom {
+        animation: tracking-in-expand-fwd-bottom 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+    @keyframes tracking-in-expand-fwd-bottom {
+        0% {
+            letter-spacing: -0.5em;
+            transform: translateZ(-700px) translateY(500px);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        100% {
+            transform: translateZ(0) translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .parent-tag {
+        display: flex;
+    }
+
+    .delivery-chickfille {
+        background-image: url(https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/Delivery/ONE_0704-4%201.png?la=en&h=-1&w=-1);
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #414244;
+
+        transform: translatey(100%);
+        transition: transform 250ms ease-in-out;
+    }
+
+    .box:hover .overlay {
+        transform: translatey(160px);
+    }
+
+    .overlay p {
+        color: #fff;
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .overlay code {
+        display: inline-block;
+        padding: 2px 4px;
+        border-radius: 2px;
+        background-color: #fff;
+        color: #2a2a2a;
+    }
+
+    .paragraph {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .delivery-pizza {
+        background-image: url(https://plus.unsplash.com/premium_photo-1682088887477-4f63f185ba7e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fHww);
+    }
+
+    .delivery-img {
+        background-image: url(https://media.istockphoto.com/id/1411691105/video/close-up-young-happy-asian-delivery-man-with-bicycle-in-red-uniform-carry-case-box-knock-door.jpg?s=640x640&k=20&c=cxmEv7EtPvYjJgmPCwc_2LeanNkJHKsmGyTL0PeWips=);
+        background-size: 200px;
+    }
+
+    .delivery-wrapper {
+        display: flex;
+        align-items: center;
+        border: 1px solid blue;
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    .img-delivery {
+        border-radius: 30px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .delivery-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        width: 400px;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+
+        gap: 50px;
+    }
+
+    .delivery-item {
+        width: 100px;
+
+    }
+
+    .box-rotation {
+
+        border-radius: 10px;
+        background-color: rgb(163, 139, 107);
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+        transition-property: background-color, transform;
+        transition-duration: 500ms;
+        transition-timing-function: linear;
+        transition-delay: 0;
+    }
+
+
+    .box-rotation:hover {
+        background-color: rgb(97, 84, 32);
+        transform: scale(1.2);
+    }
+
+    .delivery-paragraph {
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .delivery-paragraph::selection {
+        color: azure;
+        background-color: black;
+    }
+
+    .form-delivery {
+        width: 382px;
+        margin: 0 auto;
+        border: 1px solid red;
+        background-color: #e3dab9;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .form-button {
+        background-color: wheat;
+        border-radius: 5px;
+
+    }
+
+    .form-button:hover {
+        background-color: rgb(178, 157, 118);
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #bdbdbd;
+        overflow: hidden;
+        display: flex;
+        background-position: center;
+        box-shadow: 7px 7px 7px 7px #0000007d;
+        border-radius: 7px;
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #bdbdbd;
+        overflow: hidden;
+        display: flex;
+        background-position: center;
+        border-radius: 7px;
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #bdbdbd;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        border-radius: 7px;
+    }
+
+    .section-title-delivery {
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+        gap: 10px;
+        letter-spacing: 7px;
+        text-shadow: 2px 2px 4px rgb(242, 242, 9);
+        margin-bottom: 30px;
+        margin-left: -235px;
+    }
+
+
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .text-hover {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.tracking-in-expand-fwd-bottom {
+    animation: tracking-in-expand-fwd-bottom 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd-bottom {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px) translateY(500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+.parent-tag {
+    display: flex;
+}
+
+.delivery-chickfille {
+    background-image: url(https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/Delivery/ONE_0704-4%201.png?la=en&h=-1&w=-1);
+}
+
+.overlay {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #414244;
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(160px);
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: px;
+    font-size: 10px;
+}
+
+.overlay code {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+.paragraph {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.delivery-pizza {
+    background-image: url(https://plus.unsplash.com/premium_photo-1682088887477-4f63f185ba7e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fHww);
+}
+
+.delivery-img {
+    background-image: url(https://media.istockphoto.com/id/1411691105/video/close-up-young-happy-asian-delivery-man-with-bicycle-in-red-uniform-carry-case-box-knock-door.jpg?s=640x640&k=20&c=cxmEv7EtPvYjJgmPCwc_2LeanNkJHKsmGyTL0PeWips=);
+}
+
+.delivery-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.img-delivery {
+    border-radius: 30px;
+}
+
+.delivery-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 715px;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+
+    gap: 50px;
+}
+
+.delivery-item {
+    width: 200px;
+      
+}
+
+.box-rotation {
+
+    border-radius: 10px;
+    background-color: rgb(163, 139, 107);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+
+.box-rotation:hover {
+    background-color: rgb(97, 84, 32);
+    transform: scale(1.2);
+}
+
+.delivery-paragraph {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.delivery-paragraph::selection {
+    color: azure;
+    background-color: black;
+}
+
+.form-delivery {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: #e3dab9;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-button {
+    background-color: wheat;
+    border-radius: 5px;
+
+}
+
+.form-button:hover {
+    background-color: rgb(178, 157, 118);
+}
+
+.box {
+    position: relative;
+    width: 230px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    display: flex;
+    background-position: center;
+    box-shadow: 7px 7px 7px 7px #0000007d;
+    border-radius: 7px;
+}
+
+.box {
+    position: relative;
+    width: 230px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    display: flex;
+    background-position: center;
+    border-radius: 7px;
+}
+
+.box {
+    position: relative;
+    width: 230px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border-radius: 7px;
+}
+
+.section-title-delivery {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 10px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px rgb(242, 242, 9);
+    margin-bottom: 30px;
+}
+}

@@ -1,0 +1,386 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drafts.css">
+</head>
+
+<body> 
+
+
+
+
+
+     <form name="signup_form" autocomplete="on" novalidate>
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+        
+          <label>
+            Password
+            <input type="password" name="password" />
+          </label>
+        
+          <button type="submit">Submit</button>
+        </form>  
+
+
+
+
+
+    <form>
+        <label>
+            First name
+            <input type="text" name="firstName" autofocus />
+        </label>
+        <label>
+            Last name
+            <input type="text" name="lastName" />
+        </label>
+        <button type="submit">Submit</button>
+    </form> 
+
+
+
+  <form>
+  <label>
+    Username
+    <input type="text" name="username" placeholder="Viktor Moroziuk" />
+  </label>
+  <button type="submit">Submit feedback</button>
+</form> 
+
+
+
+
+
+ <form>
+  <label>
+    Email
+    <input type="email" name="email" />
+  </label>
+  <label>
+    Password
+    <input type="password" name="pwd" minlength="5" maxlength="12" />
+  </label>
+  <label>
+    Phone number
+    <input type="tel" name="phone" />
+  </label>
+  <button type="submit">Register</button>
+</form> 
+
+
+ <form>
+  <p>Choose a color:</p>
+  <label>
+    <input type="radio" name="color" value="red" />
+    Red
+  </label>
+  <label>
+    <input type="radio" name="color" value="white" checked />
+    White
+  </label>
+  <label>
+    <input type="radio" name="color" value="green" />
+    Green
+  </label>
+
+  <p>Select size:</p>
+  <label>
+    <input type="radio" name="size" value="sm" />
+    Small
+  </label>
+  <label>
+    <input type="radio" name="size" value="md" />
+    Medium
+  </label>
+  <label>
+    <input type="radio" name="size" value="lg" checked />
+    Large
+  </label>
+</form> 
+
+
+<form>
+  <p>What are your hobbies?</p>
+  <label>
+    <input type="checkbox" name="hobby" value="music" checked />
+    Music
+  </label>
+  <label>
+    <input type="checkbox" name="hobby" value="sports" checked />
+    Sports
+  </label>
+  <label>
+    <input type="checkbox" name="hobby" value="reading" />
+    Reading
+  </label>
+</form> 
+
+
+ <form>
+  <label>
+    Weight with 0.5 step value:
+    <input type="number" name="weight" min="0" max="200" step="1" value="0" />
+  </label>
+  <button type="submit">Submit</button>
+</form> -->
+
+ <label>
+  Interest rate:
+  <input
+    type="range"
+    name="interest_rate"
+    value="40"
+    min="0"
+    max="100"
+    step="1"
+  />
+</label>
+
+<p>Selected value: <span class="js-selected-value">40</span></p>   
+
+
+
+
+
+
+ <label>
+  Date
+  <input type="date" />
+</label>
+
+<label>
+  Time
+  <input type="time" />
+</label>
+
+<label>
+  Date and time
+  <input type="datetime-local" />
+</label> 
+
+
+
+ <form>
+  <label>
+    Username
+    <input type="text" name="username" placeholder="Jack Meadows">
+  </label>
+  <label>
+    Feedback
+    <textarea name="feedback" rows="5" placeholder="Enter your message here..."></textarea>
+  </label>
+  <button type="submit">Submit</button>
+</form>
+
+ <label for="size">Size</label>
+<select id="size" name="size">
+  <option value="xs">Extra Small</option>
+  <option value="s">Small</option>
+  <option value="m" selected>Medium</option>
+  <option value="l">Large</option>
+</select> -->
+
+
+ 
+<label for="month">Month</label>
+<select name="month" id="month">
+  <optgroup label="Summer">
+    <option value="s6">June</option>
+    <option value="s7">July</option>
+    <option value="s8">August</option>
+  </optgroup>
+
+  <optgroup label="Autumn">
+    <option value="s9">September</option>
+    <option value="s10">October</option>
+    <option value="s11">November</option>
+  </optgroup>
+</select> 
+
+<form class="form">
+  <fieldset class="form-group">
+    <legend class="group-title">Enter your contact details</legend>
+    <label class="form-label">
+      Name
+      <input type="text" name="username" />
+    </label>
+    <label class="form-label">
+      Email
+      <input type="email" name="email" />
+    </label>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <legend class="group-title">Your favourite programming language</legend>
+    <div class="form-field">
+      <input type="checkbox" name="language" value="python" id="python">
+      <label class="form-label" for="python">Python</label>
+    </div>
+    <div class="form-field">
+      <input type="checkbox" name="language" value="js" id="js">
+      <label class="form-label" for="js">JavaScript</label>
+    </div>
+    <div class="form-field">
+      <input type="checkbox" name="language" value="ruby" id="ruby">
+      <label class="form-label" for="ruby">Python</label>
+    </div>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <legend class="group-title">I want to receive</legend>
+    <div class="form-field">
+      <input type="checkbox" name="newsletter" value="weekly" id="weekly">
+      <label class="form-label" for="weekly">The weekly newsletter</label>
+    </div>
+    <div class="form-field">
+      <input type="checkbox" name="newsletter" value="offers" id="offers">
+      <label class="form-label" for="offers">Offers from the company</label>
+    </div>
+    <div class="form-field">
+      <input type="checkbox" name="newsletter" value="associated_offers" id="associated_offers">
+      <label class="form-label" for="associated_offers">Offers from associated companies</label>
+    </div>
+  </fieldset>
+
+  <button type="submit">Subscribe</button>
+</form> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <form class="form">
+  <div class="form-group" role="group" aria-labelledby="contact-details-head">
+    <p id="contact-details-head">Enter your contact details</p>
+    <label>
+      Name
+      <input type="text" name="username" />
+    </label>
+    <label>
+      Email
+      <input type="email" name="email" />
+    </label>
+    <label >
+    phone number
+    <input type="text" name="phone-number">
+    </label>
+  </div>
+
+  <div class="form-group" role="group" aria-labelledby="language-head">
+    <p id="language-head">Your favourite delivery company</p>
+    <label>
+      <input type="checkbox" name="language" value="python">
+      US express 
+    </label>
+    <label>
+      <input type="checkbox" name="language" value="js">
+      AmericaGo
+    </label>
+    <label>
+      <input type="checkbox" name="language" value="ruby">
+      Starspeed
+    </label>
+  </div>
+
+  <div class="form-group" role="group" aria-labelledby="newsletter-head">
+    <p id="newsletter-head">I want to receive</p>
+    <label>
+      <input type="checkbox" name="newsletter" value="weekly">
+      
+    </label>
+    <label>
+      <input type="checkbox" name="newsletter" value="company_offers">
+      Offers from the company
+    </label>
+    <label>
+      <input type="checkbox" name="newsletter" value="associated_offers">
+      Offers from associated companies
+    </label>
+  </div>
+
+  <button type="submit">Subscribe</button>
+</form>
+
+ 
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Feedback</title>
+  <link rel="stylesheet" href="drafts.css">
+</head>
+<body>
+
+  <section class="feedback-section">
+    <h2>What Our Customers Say</h2>
+
+    <div class="feedback-card">
+      <div class="name">Emily R.</div>
+      <div class="stars">★★★★★</div>
+      <div class="comment">“Absolutely delicious! The pasta was fresh, and the ambiance made for a perfect date night.”</div>
+    </div>
+
+    <div class="feedback-card">
+      <div class="name">James K.</div>
+      <div class="stars">★★★★☆</div>
+      <div class="comment">“Great service and flavorful dishes. Will definitely come back!”</div>
+    </div>
+
+    <div class="feedback-card">
+      <div class="name">Sofia L.</div>
+      <div class="stars">★★★★☆</div>
+      <div class="comment">“The best pizza I've had outside of Italy. Highly recommended!”</div>
+    </div>
+
+ <div class="feedback-card">
+      <div class="name">Sofia L.</div>
+      <div class="stars">★★★★☆</div>
+      <div class="comment">“The best pizza I've had outside of Italy. Highly recommended!”</div>
+    </div>
+
+
+
+  </section>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
